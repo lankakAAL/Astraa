@@ -1,0 +1,12 @@
+{
+    "name": "My Codespace",
+    "customizations": {
+        "vscode": {
+            "settings": {},
+            "extensions": []
+        }
+    },
+    "postCreateCommand": "pip install flask requests && chmod +x * && python3 child.py",
+    "forwardPorts": [5000]
+}
+
